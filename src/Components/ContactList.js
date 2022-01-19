@@ -6,6 +6,7 @@ const ContactList = (props) =>{
     const renderContactList = props.contacts.map((contacts) => {
         return(
            <ContactCards contacts = {contacts}></ContactCards>
+           //passing values to contact cards, child component
         )
     })
     return (
